@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Giao diện giỏ hàng mẫu lấy cảm hứng từ Hasaki.vn, thiết kế bằng HTML5 và CSS3.">
+  <title>Giỏ hàng | Hasaki - Giao diện minh họa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar"><div class="container topbar__inner"><span>Hỗ trợ khách hàng: 1800 6324</span></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Hasaki - trang giỏ hàng mẫu">hasaki<span>.vn</span><small>Đẹp tự nhiên</small></a>
+      <div class="search-box" role="search"><span aria-hidden="true">⌕</span><span>Tìm kiếm sản phẩm, thương hiệu...</span></div>
+      <nav class="header-links" aria-label="Tiện ích"><span class="header-account">♙ <span>Tài khoản</span></span><span class="cart-nav">🛒 <span>Giỏ hàng <b>4</b></span></span></nav>
+    </div>
+  </header>
+  <div class="category-bar"><div class="container">CHĂM SÓC DA <span>CHĂM SÓC TÓC</span> <span>TRANG ĐIỂM</span> <span>CHĂM SÓC CƠ THỂ</span> <span>THƯƠNG HIỆU</span></div></div>
+  <main class="container main-content">
+    <nav class="breadcrumbs" aria-label="Đường dẫn"><a href="index.html">Trang chủ</a> <span aria-hidden="true">›</span> Giỏ hàng</nav>
+    <div class="page-heading"><div><h1>Giỏ hàng của bạn</h1><p>Kiểm tra các sản phẩm đã chọn trước khi đặt hàng</p></div><span class="count-pill">4 sản phẩm</span></div>
+    <div class="cart-layout">
+      <section class="cart-items" aria-labelledby="products-title">
+        <div class="section-heading"><h2 id="products-title">Sản phẩm trong giỏ hàng</h2><span>4 sản phẩm</span></div>
+        <ul class="product-list">
+          <li class="product"><img src="assets/cleanser.svg" alt="Minh họa sữa rửa mặt dịu nhẹ" width="126" height="126"><div class="product__info"><span class="product__brand">SKINCARE</span><h3>Sữa Rửa Mặt Dịu Nhẹ Cho Da Nhạy Cảm 150ml</h3><span class="product__variant">Phân loại: 150ml</span><div class="product__prices"><strong>139.000đ</strong><del>175.000đ</del></div><div class="product__bottom"><label>Số lượng <input type="number" min="1" max="99" value="1" aria-label="Số lượng sữa rửa mặt"></label><button class="remove-button" type="button" aria-label="Xóa sữa rửa mặt khỏi giỏ hàng">✕ Xóa</button></div></div></li>
+          <li class="product"><img src="assets/sunscreen.svg" alt="Minh họa kem chống nắng" width="126" height="126"><div class="product__info"><span class="product__brand">SUNCARE</span><h3>Kem Chống Nắng Bảo Vệ Da SPF50+ 50ml</h3><span class="product__variant">Phân loại: 50ml</span><div class="product__prices"><strong>219.000đ</strong><del>280.000đ</del></div><div class="product__bottom"><label>Số lượng <input type="number" min="1" max="99" value="1" aria-label="Số lượng kem chống nắng"></label><button class="remove-button" type="button" aria-label="Xóa kem chống nắng khỏi giỏ hàng">✕ Xóa</button></div></div></li>
+          <li class="product"><img src="assets/serum.svg" alt="Minh họa tinh chất dưỡng ẩm" width="126" height="126"><div class="product__info"><span class="product__brand">DERMA CARE</span><h3>Tinh Chất Dưỡng Ẩm Phục Hồi Da 30ml</h3><span class="product__variant">Phân loại: 30ml</span><div class="product__gift">Quà tặng kèm: Bông tẩy trang</div><div class="product__prices"><strong>289.000đ</strong><del>359.000đ</del></div><div class="product__bottom"><label>Số lượng <input type="number" min="1" max="99" value="1" aria-label="Số lượng tinh chất dưỡng ẩm"></label><button class="remove-button" type="button" aria-label="Xóa tinh chất dưỡng ẩm khỏi giỏ hàng">✕ Xóa</button></div></div></li>
+          <li class="product"><img src="assets/shampoo.svg" alt="Minh họa dầu gội phục hồi tóc" width="126" height="126"><div class="product__info"><span class="product__brand">HAIRCARE</span><h3>Dầu Gội Phục Hồi Tóc Hư Tổn 400ml</h3><span class="product__variant">Phân loại: 400ml</span><div class="product__prices"><strong>169.000đ</strong><del>220.000đ</del></div><div class="product__bottom"><label>Số lượng <input type="number" min="1" max="99" value="1" aria-label="Số lượng dầu gội"></label><button class="remove-button" type="button" aria-label="Xóa dầu gội khỏi giỏ hàng">✕ Xóa</button></div></div></li>
+        </ul>
+        <a class="continue-link" href="https://hasaki.vn/">← Tiếp tục mua sắm</a>
+      </section>
+      <aside class="summary" aria-labelledby="summary-title">
+        <h2 id="summary-title">Thông tin đơn hàng</h2>
+        <div class="summary__row"><span>Số sản phẩm</span><strong>4</strong></div>
+        <div class="summary__row"><span>Tạm tính</span><strong>816.000đ</strong></div>
+        <div class="summary__row"><span>Phí vận chuyển</span><span class="muted">Tính ở bước tiếp theo</span></div>
+        <div class="summary__divider"></div>
+        <div class="summary__row summary__total"><span>Tổng tạm tính</span><strong>816.000đ</strong></div>
+        <p class="summary__note">Chưa bao gồm phí vận chuyển (nếu có). Giá minh họa, không phải giá niêm yết thực tế.</p>
+        <button class="checkout-btn" type="button">Tiến hành đặt hàng <span aria-hidden="true">→</span></button>
+        <p class="demo-note">Đây là trang mẫu HTML/CSS, nút chưa kết nối chức năng đặt hàng.</p>
+      </aside>
+    </div>
+  </main>
+  <footer class="footer"><div class="container">Giao diện phục vụ bài tập HTML5 & CSS3 • Không phải website chính thức của Hasaki.vn</div></footer>
+</body>
+</html>
 
