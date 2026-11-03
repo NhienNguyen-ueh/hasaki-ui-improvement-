@@ -1,74 +1,83 @@
-# BÀI TẬP CÁ NHÂN – BUỔI 2
-## Phát triển ứng dụng thương mại điện tử
 
-### 1. Giới thiệu bài tập
-Bài tập Buổi 2 tiếp tục phát triển giao diện website thương mại điện tử từ sản phẩm đã thực hiện ở Buổi 1.
+## Bài tập cá nhân Buổi 2 – Phát triển ứng dụng thương mại điện tử
 
-Mục tiêu là cải thiện cấu trúc HTML5, áp dụng các kỹ thuật CSS3 và tổ chức bố cục giao diện hợp lý hơn, giúp website dễ sử dụng và hiển thị tốt trên các kích thước màn hình.
+### 1. Thông tin chung
 
-- **Tên sinh viên:** Nguyễn Muội Nhiên 
-- **Mã sinh viên:** 31241026871
-- **Môn học:** Phát triển ứng dụng thương mại điện tử
+- **Công cụ AI sử dụng:** ChatGPT
+- **Mục đích:** Hỗ trợ học tập, giải thích kiến thức HTML5/CSS3, cải thiện mã nguồn và xử lý các vấn đề trong quá trình phát triển giao diện website.
+- **Người thực hiện:** Nguyễn Muội Nhiên 
 
-### 2. Website tham khảo và khu vực đã cải tiến
+### 2. Prompt đã sử dụng
+**Prompt 1**
+Tôi muốn thực hành CSS selector và Box Model trên một thẻ sản phẩm trong website của
+mình.
+HTML hiện tại:
+ <ul class="product-list">
+          <li>
+            <article class="product">
+              <img src="assets/sữa rửa mặt hasaki.jpg" alt="Sữa Rửa Mặt Cetaphil Dịu Lành Cho Da Nhạy Cảm 125ml" width="126" height="126">
+              <div class="product__info">
+                <span class="product__brand">CETAPHIL</span>
+                <h3>
+                  <a href="https://hasaki.vn/san-pham/sua-rua-mat-cetaphil-diu-nhe-khong-xa-phong-125ml-moi-101589.html">
+                  Sữa Rửa Mặt Cetaphil Dịu Lành Cho Da Nhạy Cảm 125ml
+                  </a>
+                </h3>
+                <span class="product__variant">Phân loại: 125ml</span>
+                <div class="product__prices"><strong>185.000đ</strong><del>124.000đ</del></div>
+                <div class="product__bottom">
+                  <label>Số lượng <input type="number" min="1" max="99" value="1" aria-label="Số lượng sữa rửa mặt"></label>
+                  <button class="remove-button" type="button" aria-label="Xóa sữa rửa mặt khỏi giỏ hàng">✕ Xóa</button>
+                </div>
+              </div>
+            </article>
+          </li>
 
-- **Website tham khảo:** hasaki 
-- **Đường dẫn:** https://hasaki.vn/
-- **Khu vực thực hiện:** Trang giỏ hàng 
+Hãy hướng dẫn tôi:
+1. Sử dụng element selector và class selector.
+2. Sử dụng descendant selector khi phù hợp.
+3. Điều chỉnh margin, padding và border.
+4. Sử dụng border-radius để bo góc.
+5. Định dạng tên và giá sản phẩm.
+6. Định dạng liên kết thành nút thao tác đơn giản.
 
-### 3. Những kỹ thuật HTML5/CSS3 đã thực hành
+Hãy giải thích sự khác nhau giữa margin và padding.
+Giải thích tác dụng của box-sizing: border-box.
+Chỉ đưa ra phần CSS cần thiết.
+Không thay đổi nội dung hoặc tạo lại toàn bộ HTML.
+**Prompt 2** 
+Tôi muốn bổ sung hiệu ứng hover và focus cho một nút bấm hoặc liên kết trong website.
 
-**HTML5:**
-- Sử dụng các thẻ HTML5 phù hợp để xây dựng cấu trúc website.
-- Tổ chức nội dung bằng các phần tử semantic.
-- Sử dụng các thuộc tính HTML cần thiết để hỗ trợ hiển thị nội dung.
+Đây là HTML và CSS hiện tại:
+ <a class="continue-link" href="https://hasaki.vn/">← Tiếp tục mua sắm</a>
+.continue-link{display:inline-block;margin:2px 24px 23px;color:var(--green);font-size:14px;font-weight:700}
 
-**CSS3:**
-- Sử dụng CSS Selector để lựa chọn và định dạng phần tử.
-- Thực hành CSS Box Model: Content, Padding, Border, Margin.
-- Sử dụng Flexbox hoặc CSS Grid để bố trí các thành phần giao diện.
-- Điều chỉnh khoảng cách, kích thước và cách hiển thị các phần tử.
+Hãy hướng dẫn tôi:
+1. Tạo hiệu ứng hover nhẹ.
+2. Sử dụng transition để tạo chuyển đổi mượt.
+3. Bổ sung focus-visible để hỗ trợ điều hướng bằng bàn phím.
+4. Đảm bảo màu chữ và màu nền dễ nhìn.
+5. Không làm thay đổi bố cục quá nhiều.
 
-### 4. Hướng dẫn chạy website
+Hãy chỉ đưa ra phần CSS cần thêm hoặc sửa.
+Giải thích từng thuộc tính và cách kiểm tra.
 
-1. Tải hoặc Clone repository về máy tính.
-2. Giải nén thư mục nếu tải dưới dạng ZIP.
-3. Mở thư mục dự án bằng Visual Studio Code.
-4. Mở file `index.html` bằng trình duyệt web.
-5. Kiểm tra giao diện website trên trình duyệt.
+### 3. Đánh giá việc sử dụng AI
 
-### 5. Những thay đổi đã thực hiện
+**Những nội dung AI hỗ trợ tốt:**
+- Giải thích các kiến thức HTML5 và CSS3.
+- Gợi ý cách tổ chức cấu trúc HTML hợp lý.
+- Hướng dẫn sử dụng CSS Selector, Box Model và các hiệu ứng CSS.
+- Đề xuất hướng kiểm tra và khắc phục lỗi giao diện.
 
-So với phiên bản Buổi 1, tôi đã thực hiện các thay đổi sau:
+**Những nội dung cần tự kiểm tra:**
+- Không áp dụng toàn bộ mã nguồn AI đề xuất một cách máy móc.
+- Kiểm tra tính phù hợp của mã CSS với cấu trúc HTML thực tế.
+- Kiểm tra giao diện trên trình duyệt sau mỗi lần chỉnh sửa.
+- Điều chỉnh mã nguồn khi kết quả chưa đáp ứng yêu cầu.
 
-- Thay đổi hình ảnh sản phẩm sang hình ảnh thực tế 
-- Sử dụng Grid, hover, focus, align, padding, margin để trình bày bố cục sản phẩm và bổ sung điều hướng cho các nút/liên kết  
-- Các nút đã có điều hướng đến trang tương ứng, banner đã có logo chuẩn của Hasaki, sản phẩm được trình bày gọn gàng và chính xác 
+### 4. Cam kết của sinh viên
 
-### 6. Công cụ AI đã sử dụng và cách kiểm tra kết quả
+Tôi sử dụng AI như một công cụ hỗ trợ học tập và tham khảo trong quá trình thực hiện bài tập. Tôi chủ động tìm hiểu, kiểm tra, lựa chọn và điều chỉnh các đề xuất của AI để phù hợp với mã nguồn và yêu cầu bài tập.
 
-**Công cụ AI sử dụng:**
-- ChatGPT 
-
-**Mục đích sử dụng:**
-- Hỗ trợ giải thích các kỹ thuật HTML5 và CSS3.
-- Gợi ý cách cải thiện cấu trúc HTML và bố cục CSS.
-- Hỗ trợ tìm nguyên nhân và đề xuất cách khắc phục lỗi giao diện.
-
-**Cách kiểm tra kết quả:**
-- Đối chiếu mã nguồn được gợi ý với kiến thức đã học.
-- Tự kiểm tra và điều chỉnh lại HTML/CSS trong dự án.
-- Mở website trên trình duyệt để kiểm tra giao diện.
-- Thay đổi kích thước cửa sổ trình duyệt để kiểm tra khả năng hiển thị.
-- Kiểm tra lại các thành phần sau khi chỉnh sửa để đảm bảo hoạt động đúng.
-
-
----
-
-*Bài tập cá nhân Buổi 2 – Môn Phát triển ứng dụng thương mại điện tử.*
-## 6. Phần tôi hiểu và có thể giải thích
-- HTML giúp tạo cấu trúc nội dung web
-- CSS định dạng bố cục, màu sắc và kích thước hiển thị trên các màn hình
-- <img> thể hiện hình ảnh sản phẩm 
-- <button> tạo nút thao tác "Tiến hành đặt hàng" 
-- <div> nhóm các thành phần để thuận tiện bố trí và định dạng giao diện 
+Tôi chịu trách nhiệm về nội dung mã nguồn và sản phẩm cuối cùng do mình thực hiện.
