@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Giao diện giỏ hàng mẫu lấy cảm hứng từ Hasaki.vn, thiết kế bằng HTML5 và CSS3.">
+  <title>Giỏ hàng | Hasaki - Giao diện minh họa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <span>Hỗ trợ khách hàng: 1800 6324</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="https://hasaki.vn/" aria-label="Logo Hasaki">
+       <img src="assets/logo.png" alt="Logo cửa hàng">
+      </a>
+
+      <form class="search-box" role="search" action="#" method="get">
+        <label class="visually-hidden" for="site-search">Tìm kiếm sản phẩm, thương hiệu</label>
+        <span aria-hidden="true">⌕</span>
+        <input id="site-search" type="search" name="q" placeholder="Tìm kiếm sản phẩm, thương hiệu...">
+        <button type="submit">Tìm</button>
+      </form>
+
+      <nav class="header-links" aria-label="Tiện ích">
+        <a class="header-account" href="https://hasaki.vn/customer/account">
+        <span class="header-account">♙ <span>Tài khoản</span></span>
+        </a>
+        <span class="cart-nav">🛒 <span>Giỏ hàng <b>4</b></span></span>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="category-bar" aria-label="Danh mục sản phẩm">
+    <ul class="container category-list">
+      <li>
+        <a href="https://hasaki.vn/deals-dang-dien-ra.html?product_list_order=topsale" aria-label="Xem tất cả các deal của Hasaki">
+          <span>HASAKI DEALS</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://hasaki.vn/campaign/wow" aria-label="Xem tất cả các deal hot">
+          <span>HOT DEALS</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://hasaki.vn/san-pham-ban-chay.html?sort=topsale" aria-label="Xem tất cả sản phẩm bán chạy">
+          <span>BÁN CHẠY</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://hasaki.vn/hang-moi-ve.html?sort=position" aria-label="Xem tất cả sản phẩm mới">
+          <span>HÀNG MỚI VỀ</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="https://hasaki.vn/thuong-hieu" aria-label="Xem tất cả thương hiệu">
+        <span>THƯƠNG HIỆU</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main class="container main-content">
+    <nav class="breadcrumbs" aria-label="Đường dẫn">
+      <a href="https://hasaki.vn/">Trang chủ</a>
+      <span aria-hidden="true">›</span>
+      <span aria-current="page">Giỏ hàng</span>
+    </nav>
+
+    <section class="page-heading" aria-labelledby="page-title">
+      <div>
+        <h1 id="page-title">Giỏ hàng của bạn</h1>
+        <p>Kiểm tra các sản phẩm đã chọn trước khi đặt hàng</p>
+      </div>
+      <span class="count-pill">4 sản phẩm</span>
+    </section>
+
+    <div class="cart-layout">
+      <section class="cart-items" aria-labelledby="products-title">
+        <header class="section-heading">
+          <h2 id="products-title">Sản phẩm trong giỏ hàng</h2>
+          <span>4 sản phẩm</span>
+        </header>
+
+        <ul class="product-list">
+          <li>
+            <article class="product">
+              <img src="assets/sữa rửa mặt hasaki.jpg" alt="Sữa Rửa Mặt Cetaphil Dịu Lành Cho Da Nhạy Cảm 125ml" width="126" height="126">
+              <div class="product__info">
+                <span class="product__brand">CETAPHIL</span>
+                <h3>
+                  <a href="https://hasaki.vn/san-pham/sua-rua-mat-cetaphil-diu-nhe-khong-xa-phong-125ml-moi-101589.html">
+                  Sữa Rửa Mặt Cetaphil Dịu Lành Cho Da Nhạy Cảm 125ml
+                  </a>
+                </h3>
+                <span class="product__variant">Phân loại: 125ml</span>
+                <div class="product__prices"><strong>185.000đ</strong><del>124.000đ</del></div>
+                <div class="product__bottom">
+                  <label>Số lượng <input type="number" min="1" max="99" value="1" aria-label="Số lượng sữa rửa mặt"></label>
+                  <button class="remove-button" type="button" aria-label="Xóa sữa rửa mặt khỏi giỏ hàng">✕ Xóa</button>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="product">
+              <img src="assets/kem chống nắng hasaki.jpg" alt="Kem Chống Nắng La Roche-Posay Phổ Rộng, Nâng Tông Kiềm Dầu 50ml" width="126" height="126">
+              <div class="product__info">
+                <span class="product__brand">LA ROCHE-POSAY</span>
+                <h3>
+                  <a href="https://hasaki.vn/san-pham/kem-chong-nang-la-roche-posay-spf-50-bao-ve-da-50ml-183033.html">
+                    Kem Chống Nắng La Roche-Posay Phổ Rộng, Nâng Tông Kiềm Dầu 50ml
+                  </a>
+                </h3>
+                <span class="product__variant">Phân loại: 50ml</span>
+                <div class="product__prices"><strong>610.000đ</strong><del>455.000đ</del></div>
+                <div class="product__bottom">
+                  <label>Số lượng <input type="number" min="1" max="99" value="1" aria-label="Số lượng kem chống nắng"></label>
+                  <button class="remove-button" type="button" aria-label="Xóa kem chống nắng khỏi giỏ hàng">✕ Xóa</button>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="product">
+              <img src="assets/serum hasaki.jpg" alt="Serum L'Oreal Dưỡng Sáng Và Mờ Thâm Nám 15ml" width="126" height="126">
+              <div class="product__info">
+                <span class="product__brand">L'OREAL</span>
+                <h3>
+                  <a href="https://hasaki.vn/san-pham/serum-l-oreal-paris-glycolic-duong-sang-va-mo-tham-nam-15ml-100293.html?srsltid=AYCX9vKftLYHLnlT8ARGbI6kKtZoW1_BTbR-81weAN6QM21pg6y7OMZZ">
+                    Serum L'Oreal Dưỡng Sáng Và Mờ Thâm Nám 15ml
+                  </a>
+                </h3>
+                <span class="product__variant">Phân loại: 15ml</span>
+                <p class="product__gift">Quà tặng kèm: Bông tẩy trang</p>
+                <div class="product__prices"><strong>289.000đ</strong><del>222.000đ</del></div>
+                <div class="product__bottom">
+                  <label>Số lượng <input type="number" min="1" max="99" value="1" aria-label="Số lượng tinh chất dưỡng ẩm"></label>
+                  <button class="remove-button" type="button" aria-label="Xóa tinh chất dưỡng ẩm khỏi giỏ hàng">✕ Xóa</button>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li>
+            <article class="product">
+              <img src="assets/dầu gội hasaki.jpg" alt="Dầu Gội Selsun Ngừa Gàu & Giảm Ngứa Da Đầu 250ml" width="126" height="126">
+              <div class="product__info">
+                <span class="product__brand">Selsun</span>
+                <h3>
+                  <a href="https://hasaki.vn/san-pham/dau-goi-selsun-ngua-gau-giam-ngua-da-dau-250ml-100901.html?srsltid=AYCX9vJM6kt7i1_5kwsbkzrvp9JMnAa6rpFVwP-KtRbpQVtyN65Ue0fr">
+                    Dầu Gội Selsun Ngừa Gàu & Giảm Ngứa Da Đầu 250ml
+                  </a>
+                </h3>
+                <span class="product__variant">Phân loại: 250ml</span>
+                <div class="product__prices"><strong>228.000đ</strong><del>166.000đ</del></div>
+                <div class="product__bottom">
+                  <label>Số lượng <input type="number" min="1" max="99" value="1" aria-label="Số lượng dầu gội"></label>
+                  <button class="remove-button" type="button" aria-label="Xóa dầu gội khỏi giỏ hàng">✕ Xóa</button>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+
+        <a class="continue-link" href="https://hasaki.vn/">← Tiếp tục mua sắm</a>
+      </section>
+
+      <aside class="summary" aria-labelledby="summary-title">
+        <h2 id="summary-title">Thông tin đơn hàng</h2>
+        <div class="summary__row"><span>Số sản phẩm</span><strong>4</strong></div>
+        <div class="summary__row"><span>Tạm tính</span><strong>967.000đ</strong></div>
+        <div class="summary__row"><span>Phí vận chuyển</span><span class="muted">Tính ở bước tiếp theo</span></div>
+        <div class="summary__divider"></div>
+        <div class="summary__row summary__total"><span>Tổng tạm tính</span><strong>967.000đ</strong></div>
+        <p class="summary__note">Chưa bao gồm phí vận chuyển (nếu có). Giá minh họa, không phải giá niêm yết thực tế.</p>
+        <button class="checkout-btn" type="button">Tiến hành đặt hàng <span aria-hidden="true">→</span></button>
+        <p class="demo-note">Đây là trang mẫu HTML/CSS, nút chưa kết nối chức năng đặt hàng.</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Giao diện phục vụ bài tập HTML5 &amp; CSS3 • Không phải website chính thức của Hasaki.vn</div>
+  </footer>
+</body>
+</html>
