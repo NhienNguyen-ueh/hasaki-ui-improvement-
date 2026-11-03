@@ -1,88 +1,71 @@
-# AI Usage Log
+# BÀI TẬP CÁ NHÂN – BUỔI 2
+## Phát triển ứng dụng thương mại điện tử
 
-## 1. Công cụ AI
-Tên công cụ:ChatGPT – OpenAI.
+### 1. Giới thiệu bài tập
+Bài tập Buổi 2 tiếp tục phát triển giao diện website thương mại điện tử từ sản phẩm đã thực hiện ở Buổi 1.
 
-## 2. Mục đích sử dụng
-Sử dụng ChatGPT nhằm hỗ trợ thực hiện các công việc sau:
-- Phân tích các khu vực chức năng của website Hasaki.vn theo góc độ trải nghiệm người dùng.
-- Nhận diện những vấn đề về giao diện và đề xuất phương án cải tiến.
-- Hỗ trợ xây dựng giao diện thương mại điện tử bằng HTML5 và CSS3.
-- Đề xuất cách tổ chức danh sách sản phẩm, thông tin giá và khu vực giỏ hàng.
-- Hướng dẫn kiểm tra khả năng hiển thị trên màn hình máy tính và điện thoại.
-- Hỗ trợ xác định và chỉnh sửa các thành phần trong mã nguồn HTML/CSS.
-- Giải thích vai trò của những thành phần mã nguồn đã sử dụng và điều chỉnh.
+Mục tiêu là cải thiện cấu trúc HTML5, áp dụng các kỹ thuật CSS3 và tổ chức bố cục giao diện hợp lý hơn, giúp website dễ sử dụng và hiển thị tốt trên các kích thước màn hình.
 
-## 3. Prompt đã sử dụng
-- Prompt 1: 
-Bạn là chuyên gia phân tích nghiệp vụ và thiết kế trải nghiệm người dùng
-cho website thương mại điện tử.
+- **Tên sinh viên:** Nguyễn Muội Nhiên 
+- **Mã sinh viên:** 31241026871
+- **Môn học:** Phát triển ứng dụng thương mại điện tử
 
-Tôi đang khảo sát website: hasaki.vn (https://hasaki.vn/).
-Hãy giúp tôi lập bảng phân tích các khu vực:
-1. Trang chủ.
-2. Danh mục sản phẩm.
-3. Chi tiết sản phẩm.
-4. Tìm kiếm.
-5. Giỏ hàng.
+### 2. Website tham khảo và khu vực đã cải tiến
 
-Với mỗi khu vực, hãy nêu:
-- Mục đích của chức năng.
-- Thành phần giao diện cần có.
-- Điểm thuận tiện đối với khách hàng.
-- Một vấn đề có thể phát sinh.
-- Một đề xuất cải tiến.
+- **Website tham khảo:** hasaki 
+- **Đường dẫn:** https://hasaki.vn/
+- **Khu vực thực hiện:** Trang giỏ hàng 
 
-Không khẳng định những tính năng chưa được kiểm chứng.
-Phân biệt rõ nhận xét dựa trên quan sát và đề xuất của AI.
+### 3. Những kỹ thuật HTML5/CSS3 đã thực hành
 
-- Prompt 2: 
-Tôi đang thực hiện bài tập phát triển giao diện website thương mại điện tử
-bằng HTML5 và CSS3.
+**HTML5:**
+- Sử dụng các thẻ HTML5 phù hợp để xây dựng cấu trúc website.
+- Tổ chức nội dung bằng các phần tử semantic.
+- Sử dụng các thuộc tính HTML cần thiết để hỗ trợ hiển thị nội dung.
 
-Tôi muốn cải tiến khu vực: giỏ hàng hiện đang hiển thị lặp lại nút “Tiến hành đặt hàng” ở cả bên dưới danh sách sản phẩm và khu vực tổng kết hóa đơn.
+**CSS3:**
+- Sử dụng CSS Selector để lựa chọn và định dạng phần tử.
+- Thực hành CSS Box Model: Content, Padding, Border, Margin.
+- Sử dụng Flexbox hoặc CSS Grid để bố trí các thành phần giao diện.
+- Điều chỉnh khoảng cách, kích thước và cách hiển thị các phần tử.
 
-Đối tượng sử dụng: khách hàng mua sắm trực tuyến tại Việt Nam.
+### 4. Hướng dẫn chạy website
 
-Hãy đề xuất:
-1. Bố cục giao diện.
-2. Các thành phần HTML cần sử dụng.
-3. Cách tổ chức CSS.
-4. Cách hiển thị trên máy tính và điện thoại.
-5. Những điểm cần kiểm tra về khả năng sử dụng.
+1. Tải hoặc Clone repository về máy tính.
+2. Giải nén thư mục nếu tải dưới dạng ZIP.
+3. Mở thư mục dự án bằng Visual Studio Code.
+4. Mở file `index.html` bằng trình duyệt web.
+5. Kiểm tra giao diện website trên trình duyệt.
 
-Trước tiên, hãy giải thích phương án thiết kế.
-Chưa tạo toàn bộ mã nguồn cho đến khi tôi yêu cầu.
+### 5. Những thay đổi đã thực hiện
 
-- Prompt 3: 
-Dựa trên phương án đã thống nhất, hãy tạo một trang giao diện
-thương mại điện tử khớp với Hasaki.vn bằng HTML5 và CSS3.
+So với phiên bản Buổi 1, tôi đã thực hiện các thay đổi sau:
 
-Yêu cầu:
-- Giao diện có tiêu đề và khu vực sản phẩm.
-- Có tối thiểu 4 sản phẩm mẫu.
-- Mỗi sản phẩm có hình ảnh, tên, giá và nút thao tác.
-- Bố cục phù hợp với màn hình máy tính và điện thoại.
-- Mã HTML có cấu trúc rõ ràng.
-- CSS được tách thành file riêng.
-- Không sử dụng backend hoặc cơ sở dữ liệu.
-- Không đưa thư viện hoặc thành phần không cần thiết vào dự án.
+- Thay đổi hình ảnh sản phẩm sang hình ảnh thực tế 
+- Sử dụng Grid, hover, focus, align, padding, margin để trình bày bố cục sản phẩm và bổ sung điều hướng cho các nút/liên kết  
+- Các nút đã có điều hướng đến trang tương ứng, banner đã có logo chuẩn của Hasaki, sản phẩm được trình bày gọn gàng và chính xác 
 
-Giải thích cách chạy trang web và những phần tôi cần kiểm tra.
- 
+### 6. Công cụ AI đã sử dụng và cách kiểm tra kết quả
 
-## 4. Kết quả AI đề xuất
-Sau quá trình trao đổi, ChatGPT đã hỗ trợ em xác định vấn đề giao diện cần cải tiến và đề xuất cách tổ chức khu vực giỏ hàng hợp lý hơn. Phương án được lựa chọn là loại bỏ nút đặt hàng bị lặp bên dưới danh sách sản phẩm và tập trung nút hành động chính tại khu vực tổng kết đơn hàng.
+**Công cụ AI sử dụng:**
+- ChatGPT 
 
-ChatGPT đã hỗ trợ tạo cấu trúc giao diện bằng HTML5, định dạng bằng CSS3 và xây dựng bố cục đáp ứng cho máy tính và điện thoại. 
+**Mục đích sử dụng:**
+- Hỗ trợ giải thích các kỹ thuật HTML5 và CSS3.
+- Gợi ý cách cải thiện cấu trúc HTML và bố cục CSS.
+- Hỗ trợ tìm nguyên nhân và đề xuất cách khắc phục lỗi giao diện.
 
-## 5. Kiểm tra và điều chỉnh
-Trong quá trình sử dụng AI, em không áp dụng toàn bộ kết quả một cách trực tiếp mà tiến hành đối chiếu và điều chỉnh những nội dung chưa phù hợp.
-- Kiểm tra tính chính xác: Đối chiếu các nhận xét của AI với website Hasaki.vn, đặc biệt là thông tin giá sản phẩm trong giỏ hàng. Em đã phản hồi và loại bỏ nhận xét chưa chính xác cho rằng giỏ hàng không hiển thị đúng giá khuyến mãi.
-- Xác định lại vấn đề: Chuyển trọng tâm phân tích sang tình trạng lặp nút “Tiến hành đặt hàng”, phù hợp hơn với vấn đề lựa chọn.
-- Điều chỉnh giao diện: Yêu cầu bố trí lại nút đặt hàng nhằm giảm sự trùng lặp và làm rõ thao tác chính trong giỏ hàng.
-- Thông qua quá trình này, chủ động đánh giá các đề xuất, lựa chọn giải pháp phù hợp và điều chỉnh sản phẩm theo mục tiêu bài tập.
+**Cách kiểm tra kết quả:**
+- Đối chiếu mã nguồn được gợi ý với kiến thức đã học.
+- Tự kiểm tra và điều chỉnh lại HTML/CSS trong dự án.
+- Mở website trên trình duyệt để kiểm tra giao diện.
+- Thay đổi kích thước cửa sổ trình duyệt để kiểm tra khả năng hiển thị.
+- Kiểm tra lại các thành phần sau khi chỉnh sửa để đảm bảo hoạt động đúng.
 
+
+---
+
+*Bài tập cá nhân Buổi 2 – Môn Phát triển ứng dụng thương mại điện tử.*
 ## 6. Phần tôi hiểu và có thể giải thích
 - HTML giúp tạo cấu trúc nội dung web
 - CSS định dạng bố cục, màu sắc và kích thước hiển thị trên các màn hình
