@@ -1,43 +1,74 @@
-# E-commerce UI Improvement
+# BÀI TẬP CÁ NHÂN – BUỔI 2
+## Phát triển ứng dụng thương mại điện tử
 
-## 1. Giới thiệu
-Dự án được thực hiện nhằm xây dựng và cải tiến khu vực giỏ hàng tham khảo từ website Hasaki.vn, một nền tảng kinh doanh các sản phẩm mỹ phẩm và chăm sóc cá nhân tại Việt Nam.
+### 1. Giới thiệu bài tập
+Bài tập Buổi 2 tiếp tục phát triển giao diện website thương mại điện tử từ sản phẩm đã thực hiện ở Buổi 1.
 
-## 2. Website tham khảo
-- Tên website: Hasaki.vn 
-- URL: https://hasaki.vn/
-- Khu vực đã khảo sát:Trang chủ, danh mục sản phẩm, chi tiết sản phẩm, tìm kiếm và giỏ hàng.
+Mục tiêu là cải thiện cấu trúc HTML5, áp dụng các kỹ thuật CSS3 và tổ chức bố cục giao diện hợp lý hơn, giúp website dễ sử dụng và hiển thị tốt trên các kích thước màn hình.
 
-## 3. Chức năng
-- Hiển thị danh sách tối thiểu 4 sản phẩm mẫu thuộc nhóm mỹ phẩm và chăm sóc cá nhân.
-- Hiển thị hình ảnh, tên sản phẩm, giá bán và nút thao tác tương ứng.
-- Hiển thị thông tin sản phẩm và quà tặng đi kèm, cụ thể là bông tẩy trang dành cho sản phẩm Tinh Chất Dưỡng Ẩm Phục Hồi Da 30ml.
-- Hiển thị khu vực giỏ hàng và thông tin tổng kết đơn hàng.
-- Bố trí nút “Tiến hành đặt hàng” tại khu vực tổng kết đơn hàng nhằm hạn chế sự trùng lặp.
-- Hỗ trợ bố cục đáp ứng, phù hợp với nhiều kích thước màn hình như máy tính và điện thoại.
+- **Tên sinh viên:** Nguyễn Muội Nhiên 
+- **Mã sinh viên:** 31241026871
+- **Môn học:** Phát triển ứng dụng thương mại điện tử
 
-## 4. Công nghệ
-- HTML5
-- CSS3
+### 2. Website tham khảo và khu vực đã cải tiến
 
-## 5. Cách chạy
-Mở file index.html bằng trình duyệt.
+- **Website tham khảo:** hasaki 
+- **Đường dẫn:** https://hasaki.vn/
+- **Khu vực thực hiện:** Trang giỏ hàng 
 
-## 6. Cải tiến đã thực hiện
-Vấn đề ban đầu:
-Qua quá trình khảo sát giao diện giỏ hàng trên Hasaki.vn, xác định được vấn đề cần cải tiến là nút “Tiến hành đặt hàng” xuất hiện tại cả khu vực bên dưới danh sách sản phẩm và khu vực tổng kết đơn hàng. Việc lặp lại nút có cùng mục đích có thể khiến giao diện thiếu tinh gọn và phân tán sự chú ý của người dùng.
+### 3. Những kỹ thuật HTML5/CSS3 đã thực hành
 
-Giải pháp cải tiến:
-- Loại bỏ nút “Tiến hành đặt hàng” nằm bên dưới danh sách sản phẩm.
-- Giữ lại nút đặt hàng chính tại khu vực tổng kết đơn hàng để tạo điểm thao tác rõ ràng.
-- Sắp xếp bố cục giỏ hàng nhằm giúp người dùng theo dõi sản phẩm, giá và thông tin đơn hàng thuận tiện hơn.
-- Điều chỉnh giao diện đáp ứng để các thành phần hiển thị phù hợp trên thiết bị di động.
-- Bổ sung thông tin quà tặng bông tẩy trang cho sản phẩm Tinh Chất Dưỡng Ẩm Phục Hồi Da 30ml.
-- Loại bỏ dòng chú thích “Giao diện học tập lấy cảm hứng từ Hasaki.vn” khỏi phần giao diện hiển thị.
+**HTML5:**
+- Sử dụng các thẻ HTML5 phù hợp để xây dựng cấu trúc website.
+- Tổ chức nội dung bằng các phần tử semantic.
+- Sử dụng các thuộc tính HTML cần thiết để hỗ trợ hiển thị nội dung.
+
+**CSS3:**
+- Sử dụng CSS Selector để lựa chọn và định dạng phần tử.
+- Thực hành CSS Box Model: Content, Padding, Border, Margin.
+- Sử dụng Flexbox hoặc CSS Grid để bố trí các thành phần giao diện.
+- Điều chỉnh khoảng cách, kích thước và cách hiển thị các phần tử.
+
+### 4. Hướng dẫn chạy website
+
+1. Tải hoặc Clone repository về máy tính.
+2. Giải nén thư mục nếu tải dưới dạng ZIP.
+3. Mở thư mục dự án bằng Visual Studio Code.
+4. Mở file `index.html` bằng trình duyệt web.
+5. Kiểm tra giao diện website trên trình duyệt.
+
+### 5. Những thay đổi đã thực hiện
+
+So với phiên bản Buổi 1, tôi đã thực hiện các thay đổi sau:
+
+- Thay đổi hình ảnh sản phẩm sang hình ảnh thực tế 
+- Sử dụng Grid, hover, focus, align, padding, margin để trình bày bố cục sản phẩm và bổ sung điều hướng cho các nút/liên kết  
+- Các nút đã có điều hướng đến trang tương ứng, banner đã có logo chuẩn của Hasaki, sản phẩm được trình bày gọn gàng và chính xác 
+
+### 6. Công cụ AI đã sử dụng và cách kiểm tra kết quả
+
+**Công cụ AI sử dụng:**
+- ChatGPT 
+
+**Mục đích sử dụng:**
+- Hỗ trợ giải thích các kỹ thuật HTML5 và CSS3.
+- Gợi ý cách cải thiện cấu trúc HTML và bố cục CSS.
+- Hỗ trợ tìm nguyên nhân và đề xuất cách khắc phục lỗi giao diện.
+
+**Cách kiểm tra kết quả:**
+- Đối chiếu mã nguồn được gợi ý với kiến thức đã học.
+- Tự kiểm tra và điều chỉnh lại HTML/CSS trong dự án.
+- Mở website trên trình duyệt để kiểm tra giao diện.
+- Thay đổi kích thước cửa sổ trình duyệt để kiểm tra khả năng hiển thị.
+- Kiểm tra lại các thành phần sau khi chỉnh sửa để đảm bảo hoạt động đúng.
 
 
-## 7. Hỗ trợ từ AI
-Trong quá trình thực hiện dự án, em sử dụng ChatGPT để hỗ trợ phân tích giao diện website tham khảo, xác định vấn đề cần cải tiến, đề xuất bố cục và xây dựng mã HTML5/CSS3.
+---
 
-Em đã trực tiếp xem xét các đề xuất, đối chiếu với website tham khảo, phản hồi những nhận xét chưa phù hợp và lựa chọn phương án cải tiến. Đồng thời thực hiện kiểm tra, điều chỉnh nội dung giao diện và tìm hiểu cấu trúc mã nguồn nhằm bảo đảm sản phẩm đáp ứng yêu cầu bài tập.
-
+*Bài tập cá nhân Buổi 2 – Môn Phát triển ứng dụng thương mại điện tử.*
+## 6. Phần tôi hiểu và có thể giải thích
+- HTML giúp tạo cấu trúc nội dung web
+- CSS định dạng bố cục, màu sắc và kích thước hiển thị trên các màn hình
+- <img> thể hiện hình ảnh sản phẩm 
+- <button> tạo nút thao tác "Tiến hành đặt hàng" 
+- <div> nhóm các thành phần để thuận tiện bố trí và định dạng giao diện 
